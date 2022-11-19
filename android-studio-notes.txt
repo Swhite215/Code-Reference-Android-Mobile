@@ -1,0 +1,65 @@
+Android Notes
+    - Android Studio
+        - Run Steps
+            - Compile
+            - APK - Android Application Package Created
+            - Installing APK
+                - If virtual - launches emulator, waits until AVD is active and installs APK
+                - If physical - installs APK
+            - Starting Device with Main Activity
+        - Run Application
+            - Installing the App on Device
+            - Starts Main Activity
+            - Specifying Layout - uses activity_main.xml
+            - Displaying Layout
+        - Structure
+            - UI
+                - Main Menu
+                - Navigation Bar - Below Main Menu
+                - Tool Bar
+                - Tool Window Bar
+            - Editor
+                - Document Tabs
+                - Editor Gutter Area
+                - Code Structure Location
+                - Editor Area
+                - Validation and Marker Sidebar
+                - Code Completion
+                - Code Generation
+                - Folding
+            - Layout Editor
+                - Select activity_main.xml to begin
+                - Add components
+                - Change attributes
+                - View and edit constraints
+                - Preview responsive design
+                - Palette - list of components and layouts to drag in (buttons, text views, spinners, scroll view)
+                - Component Tree - hierarchy for your layout
+                - Toolbar - configure layout design and attributes
+                - Design and Code Editors - create layouts
+                    - Design Editor - display laysout with design and blueprint
+                    - Code Editor - Define visual aspects with xml code
+                - Attributes - visual aspects of components, or set layout values
+                    - All Attributes - all
+                    - Declared Attributes - used
+            - Project Structure
+                - File Hierarchy
+                - Modes - Android = Main
+                - Manifest - required, root, describes essential information about the app to tools, Google Play, and operating system
+                - Java - source code
+                - Res - values for the resources used in the project
+                    - Drawable - images are here, excluding icon
+                    - Layout - store all xml layout files
+                    - Mipmap - app/launcher icons
+                    - Values - contains colors.xml, strings.xml, and themes.xml
+                        - colors.xml - colors for resources
+                            - Color Primary, Color Dark, Color Accent
+                        - strings.xml - IMPORTANT - easy to consolidate variables used in multiple places and localization
+                        - themes.xml - style sheet similar, separate details of your app design from the ui structure
+                    - Gradle - package, bundle, and build management
+        - Running Java in Android Studio
+            - Everyline of code in Java must be run in a class
+            - Class name must be name of file
+            - Main*
+    - Views and View Groups
+        - 
